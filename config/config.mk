@@ -64,7 +64,8 @@ RM_PKGS=\
 	gnome-sushi \
 	libmutter-12-0 \
 	mutter-common \
-	mutter-common-bin
+	mutter-common-bin \
+	apport
 
 # Packages not installed, but that may need to be discovered by the installer
 MAIN_POOL=\
