@@ -16,7 +16,8 @@ DISTRO_PKGS=\
 	pika-baseos \
 	pika-amdgpu-core \
 	pika-amdgpu-switcher \
-	pika-kde-desktop-minimal \
+	labwc \
+	sddm \
 	dbus-x11 \
 	rsync \
 	apt-utils \
@@ -46,7 +47,7 @@ LIVE_PKGS=\
 	casper \
 	expect \
 	gparted \
-	calamares-settings-pika-kde
+	calamares-settings-pika
 
 # Packages to remove from installed system (usually installed as Recommends)
 RM_PKGS=\

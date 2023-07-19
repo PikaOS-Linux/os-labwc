@@ -1,6 +1,6 @@
 
 
-name: PikaOS KDE lunar
+name: PikaOS LABWC lunar
 
 on:
   workflow_dispatch
@@ -30,3 +30,8 @@ jobs:
         
     - name: Build ISO
       run: chmod +x ./build.sh && ./build.sh
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: PikaOS LABWC lunar
+        path: builds/

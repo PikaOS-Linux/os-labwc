@@ -1,6 +1,6 @@
 
 
-name: PikaOS KDE lunar (nvidia)
+name: PikaOS LABWC lunar (nvidia)
 
 on:
   workflow_dispatch
@@ -30,3 +30,8 @@ jobs:
         
     - name: Build ISO
       run: chmod +x ./build_nvidia.sh && ./build_nvidia.sh
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: PikaOS LABWC lunar (nvidia)
+        path: builds/
